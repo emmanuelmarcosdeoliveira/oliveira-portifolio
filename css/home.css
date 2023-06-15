@@ -1,0 +1,75 @@
+.home-imagem img {
+   opacity: 80%;
+   width: 580px;
+ }
+.home-profissao {
+  margin-top: 120px;
+ }
+.home-profissao  h1 {
+    font-size: 42px;
+  font-weight: 700;
+}
+.home-profissao  h3 {
+  font-size: 68px;
+  font-weight: 600;
+  color: #775cef;
+}
+.home-profissao  p {
+ font-size: 18px;
+ padding-left: 10px;
+}
+.home-profissao  a {
+  display:inline-block;
+ margin: 0px 5px;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: 1px solid  #775cef;
+  box-shadow: 1px 1px 2px #775cef; 
+  color: #fafafa;
+  text-decoration: none;
+  }
+    .home-profissao  a:hover {
+      background-image: linear-gradient(#775cef, #684fdab2);
+  } .home-profissao a i {
+    font-size: 18px;
+  } 
+ 
+
+
+
+/* Responsivo*/
+@media (max-width: 600px) {
+    .home-profissao {
+      margin-top: 60px;
+    }
+    .home-profissao  h1 {
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .home-profissao h3{
+      text-align: center;
+    
+      width: 350px;
+      font-size: 36px;
+      font-weight: 600;
+      color: #775cef;
+    }
+    .home-profissao p {
+      display: flex;
+      justify-content:center;
+    }
+    .home-profissao  a {
+     margin: 0px 15px;
+      display:inline-block;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 10px 20px;
+     
+      } .home-imagem img {
+        width: 350px;
+      }
+    }

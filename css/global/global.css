@@ -1,0 +1,57 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1e222c;
+  color: #fafafa;
+  overflow-x: hidden;
+}
+.home-profissao {
+  font-family: "Bruno Ace", cursive;
+}
+.subtitulo {
+  font-family: "Bruno Ace", cursive;
+  padding-top: 80px;
+  font-weight: 800;
+  font-style: italic;
+  border-bottom: 1px solid #775cef;
+}
+
+/* Certificados Modal */
+.modal-body.modal-lg img {
+  border-radius: 8px;
+  border: 2px solid #775cef;
+}
+.modal-header h6 {
+  color: #000000;
+}
+.modal-content {
+  background-color: #fafafaf3;
+}
+
+.btn.btn-secondary {
+  background-color: #775cef !important;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.btn.btn-secondary:hover {
+  background-color: #5cef !important ;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #775cef;
+ }
+::-webkit-scrollbar {
+  width: 10px;
+  background: #7c7694;
+  
+}
+::-webkit-scrollbar-thumb {
+  background: #4c35b1c7;
+}
+@media (max-width: 1500px) {
+  body {
+    overflow-x: hidden;
+  }
+  #texto {
+    text-align: center;
+  }
+}

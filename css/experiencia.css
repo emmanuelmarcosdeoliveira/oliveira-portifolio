@@ -1,0 +1,43 @@
+#experiencia .nav-link.active {
+  width: 210px;
+  background-color:  #00000018;
+  border-left: 3px solid  #5cef ;
+  border-radius: 0px;
+}
+#experiencia .nav-link:hover {
+  color:  #5cef ;
+}
+
+#experiencia aside {
+  border-radius: 8px;
+  padding: 40px 20px;
+  background-color:#00000018;
+ 
+}
+
+.experiencia-descricao {
+  border-radius: 8px;
+  width: 845px;
+  height: 400px;
+  background-color:  #00000018;
+  box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.descricao-cargo {
+  font-size: 1.2rem;
+  color: #d6cfcf;
+}
+@media (max-width: 1500px){
+  .experiencia-descricao {
+    width: 500px;
+    height: 550px;
+    } 
+}
+@media (max-width: 600px) {
+  .experiencia-descricao {
+    margin-bottom: 100px;
+  }
+  #empresa{
+    font-size: 14px;
+  } 
+  
+}

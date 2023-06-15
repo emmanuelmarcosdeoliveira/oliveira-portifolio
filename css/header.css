@@ -1,0 +1,67 @@
+/* Area do Menu*/
+.navbar {
+  background-color: #222631;
+  font-family: "Roboto", sans-serif;
+}
+/* Logo  - Marca */
+.navbar-brand {
+  font-size: 42px;
+  font-family: "Bruno Ace", cursive;
+  color: #fff;
+}
+.navbar-brand span {
+  color: #775cef;
+}
+/*Itens do Menu */
+.nav-link {
+  text-align: center;
+}
+.nav-item .nav-link {
+  font-size: 16px;
+  font-family: "Bruno Ace", cursive;
+} 
+#menu i {
+  font-size: 18px;
+}
+
+
+
+
+.nav .nav-link,
+.navbar-brand:hover {
+  color: #fff;
+}
+.nav .nav-link.active {
+  background-color: #775cef;
+}
+.navbar-toggler {
+  background-color:  #222631;
+}
+/* Menu - Hamburguer */
+.navbar-toggler-icon {
+  font-size: 24px;
+  background-color: #775cef;
+  border-radius: 8px;
+  opacity: 80%;
+}
+/* Responsivo */
+@media (max-width: 1500px) {
+  .navbar-brand span {
+    font-size: 36px;
+  }
+  .navbar-brand   {
+    font-size: 36px !important;
+  } 
+}
+
+@media (max-width: 600px) {
+  .navbar-brand {
+    font-size: 32px;
+  }
+  .nav-link {
+    margin-top: 10px;
+  }
+  .navbar-toggler {
+    margin-right: 20px;
+  }
+}

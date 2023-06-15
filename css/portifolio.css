@@ -1,0 +1,59 @@
+.portifolio img {
+  width: 470px;
+}
+.portifolio h6 {
+  margin-bottom: 20px ;
+ 
+ 
+}
+ .portifolio  a {
+  font-weight: 400;
+  margin: 10px 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #775cef;
+  box-shadow: 1px 1px 3px #775cef;
+  color: #fafafa;
+  text-decoration: none;
+}
+.portifolio a i {
+  font-size: 16px;
+}
+.icones-projetos-redes i {
+  font-size: 16px;
+}
+.portifolio-descricao p {
+  font-size: 20px;
+}
+.icones-projetos-redes a:hover {
+  background-image: linear-gradient(#775cef, #684fdab2);
+}
+.tab-pane .active,
+.tab-pane h5 {
+  margin-bottom: -40px;
+}
+
+/* Resposnivo*/
+@media (max-width: 1500px) {
+  .portifolio .botao a {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0px 5px;
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 1px solid #775cef;
+    box-shadow: 1px 1px 3px #775cef;
+    color: #fafafa;
+    text-decoration: none;
+  }
+}
+@media (max-width: 600px) {
+  .portifolio-descricao p {
+font-size: 12px;
+  }
+  .portifolio h4 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,58 @@
+.cursos {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #775cef;
+  width: 200px;
+  height: 170px;
+}
+.cursos:hover {
+  border: 1px solid #5cef;
+}
+aside h3 {
+  text-align: center;
+  display: block;
+  padding: 10px;
+  background-color: #00000018;
+  border-radius: 10px;
+}
+
+.cursos img {
+  width: 32px;
+}
+.cursos a {
+  font-weight: 600;
+  margin: 0px 5px;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid #775cef;
+
+  color: #fafafa;
+  text-decoration: none;
+  background-color: #775cef;
+}
+.cursos a:hover {
+  background-color: #5cef;
+  border: 1px solid #5cef;
+}
+aside .curso {
+  width: 200px;
+}
+@media (max-width: 600px) {
+  .cursos {
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #775cef;
+    width: 150px;
+    height: 170px;
+  }
+  .cursos h5,
+  p {
+    text-align: center;
+  }
+  #meus-cursos {
+    margin-left: 10px;
+  }
+ }

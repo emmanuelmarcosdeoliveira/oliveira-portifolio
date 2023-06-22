@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Emmanuel Oliveira</title>
+  <meta name="description" content="Desenvolvedor Front-End UX/UI Designer localizado em São Paulo">
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Poppins:wght@400;500;900&family=Roboto:wght@400;500;700&=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/global/animate-on-scroll.css">
+</head>
+
+<body>
+
+  <header class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <h1 class="navbar-brand m-0"><span>
+          < </span>Oliveira<span> /><span /></h1>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="navbar-collapse collapse justify-content-end" id="menu">
+        <ul class="nav nav-pills d-block d-md-flex">
+          <li class="nav-item pe-1">
+            <a href="#home" class="nav-link active">
+              <i class="bi bi-person-fill me-1"></i>
+              Quem eu sou</a>
+          </li>
+          <li class="nav-item pe-1">
+            <a href="#portifolio" class="nav-link ">
+              <i class="bi bi-palette2 me-1"></i>
+              Portifolio</a>
+          </li>
+          <li class="nav-item pe-1">
+            <a href="#experiencia" class="nav-link ">
+              <i class="bi bi-building-fill-exclamation me-1"></i>
+              Experiência</a>
+          </li>
+          <li class="nav-item pe-1">
+            <a href="#tecnologias" class="nav-link ">
+              <i class="bi bi-pc-display me-1"></i>
+              Tecnologias</a>
+          </li>
+          <li class="nav-item pe-1">
+            <a href="#contato" class="nav-link ">
+              <i class="bi bi-whatsapp me-1"></i>
+              contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div data-bs-spy="scroll" data-bs-target="menu">
+    <section class="container" id="home" aria-label="Home">
+      <div class="row">
+        <div class="col-md-6 animate from-left">
+          <div class="home-imagem">
+            <img class="rounded mx-auto d-block img-fluid" src="img/ilustracoes/home.webp" alt="Foto de Perfil de Emmanuel Marcos de Oliveira">
+          </div>
+        </div>
+        <div class="home-profissao col-md-6">
+          <div>
+            <div id="texto">
+
+
+            </div>
+            <h1 class="animate"> <span> </> </span> Desenvolvedor</h1>
+            <h3 class="animate from-right"> Fron-End UX/UI Designer</h3>
+            <p id="texto" class="animate from-right">São Paulo - SP</p>
+            <a class="animate from-left" href="assets/curriculum/Curricum - Front-End Black.pdf" download="CV-Emmanuel_Oliveira" type="application/pdf">
+              <i class="bi bi-download"></i>
+              Curriculum</a>
+
+            <a class="animate from-right" href="https://www.linkedin.com/in/-emmanuel-oliveira/" target="_blank">
+              <i class=" from-right bi bi-linkedin"></i>
+              Linkedin</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="apresentacao container" id="apresentacao">
+      <div class="container">
+        <h2 class="animate from-right subtitulo mb-5">Quem eu sou</h2>
+        <div class="row">
+          <div class="col-md-8 minha-pessoa">
+            <h2 class="animate from-left mt-5">Olá</h2>
+            <h2 class="animate from-left">Deixe eu me Aprensentar</h2>
+            <p class="animate from-left">Sou<br>Emmanuel Marcos de Oliveira,<br> tenho 44 anos , Formado em <span class="text-colored">Redes de Computadores </span>pela Faculdade UniSantanna, sou apaixonado por tecnologia. <span class="text-colored"> Sou um Profissional em <u> transição de carreira </u></span>. Atualmente fazendo o curso de<span class="text-colored"> Full Stack Python </span>pela EBAC. Em processo de desenvolvimento buscando uma Oportunidade como<span class="text-colored"> Desenvolvedor Front-end Junior</span></p>
+
+
+
+          </div>
+          <div class="apresentacao-imagem col-md-4">
+            <img class="animate d-block w-100" src="img/ilustracoes/apresentacao.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portifolio" id="portifolio">
+      <div class="container">
+        <h2 class="animate from-right subtitulo mb-5">Portifólio</h2>
+        <div class="row">
+          <h3 class="animate from-botton text-center mt-5">Meus Projetos</h3>
+        </div>
+        <div class="row">
+          <aside class="col-md-2">
+            <nav class="nav nav-pills flex-column ">
+              <button type="button" data-bs-toggle="tab" data-bs-target="#bikcraft" class="text-start nav-link active mb-2">Android</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#android" class="text-start nav-link  mb-2">Em Breve</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#restaurante" class="text-start nav-link  mb-2">Em Breve</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#em-breve" class="text-start nav-link">Em Breve</button>
+            </nav>
+          </aside>
+          <div class="col-md-10">
+            <div class="tab-content">
+              <div class="tab-pane active" id="bikcraft">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h6 class="text-center text-color">1° Projeto</h6>
+                    <h5 class="text-center">Android</h5>
+                    <img class="d-block w-100" src="img/projetos/Group 10.png" alt="Projeto Android">
+                  </div>
+                  <div class="col-md-6">
+                    <h4 class=" text-color animate from-left mb-3">Descrição do Projeto</h4>
+                    <p class="animate from-right text-start">Nesse exercício foi criado uma pagina com base em HTML e CSS, contando um pouco da história do masacote Android, aonde temos links que direcionam para as páginas de Dan Morril que fez a primeira versão do mascote e também para a página de Irina Block, a ilutradora do mascote. Nessa página, também temos a descrição dos nomes das versões do Android desde a sua versão inicial que é a v1.5</p>
+                    <h6>Tecnologias Utilizadas</h6>
+                    <div class="icones-projetos me-5 animate from-top">
+                      <i class="devicon-html5-plain  animate from-top"></i>
+                      <i class="devicon-css3-plain  animate from-top"></i>
+                      <!-- <i class="devicon-javascript-plain  animate from-top"></i> -->
+                    </div>
+                    <a class="animate from-botton2" href="https://projetos-educacionais-ot3b.vercel.app/">
+                      <i class="bi bi-globe-americas"></i>
+                      Deploy</a>
+                    <a class="animate from-botton1" href="https://github.com/emmanuelmarcosdeoliveira/projeto-android">
+                      <i class="bi bi-github"></i>
+                      Github</a>
+                    <!-- <a class="animate from-botton" href="">
+                      <i class="bi bi-link-45deg"></i>
+                      Figma</a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="android">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h5 class="text-center">Android</h5>
+                    <img class="d-block w-100" src="img/projetos/Group 10.png" alt="Projeto Android">
+                  </div>
+                  <div class=" botao col-md-6">
+                    <h4 class=" text-color animate from-left mb-3">Descrição do Projeto</h4>
+                    <p class="animate from-right text-start">Nesse exercício foi criado uma pagina com base em HTML e CSS, contando um pouco da história do masacote Android, aonde temos links que direcionam para as páginas de Dan Morril que fez a primeira versão do mascote e também para a página de Irina Block, a ilutradora do mascote. Nessa página, também temos a descrição dos nomes das versões do Android desde a sua versão inicial que é a v1.5</p>
+                    <h6>Tecnologias Utilizadas</h6>
+                    <div class="icones-projetos me-5  animate from-top">
+                      <i class="devicon-html5-plain  animate from-top"></i>
+                      <i class="devicon-css3-plain  animate from-top"></i>
+                    </div>
+                    <div>
+                      <a href="" class="animate from-botton2 m-0">
+                        <i class="bi bi-globe-americas"></i>
+                        Deploy</a>
+                      <a href="" class="animate from-botton1">
+                        <i class="bi bi-github"></i>
+                        Github</a>
+                      <a href="" class="animate from-botton">
+                        <i class="bi bi-link-45deg"></i>
+                        Figma</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia">
+      <div class="container">
+        <h2 class="subtitulo mb-5 animate from-right">Experiência</h2>
+        <div class="row">
+          <h3 class="text-center mt-5 animate from-top">Minha Experiência Proffisional</h3>
+          <h5 class="text-center p-5 text-colored animate from-botton"><em>"Em Busca de uma Oportunidade na Área de Desenvolvedor Front-end"</em> </h5>
+          <div class="row">
+            <aside class="col-md-4 me-2">
+              <nav class="nav nav-pills flex-column">
+                <button type="button" data-bs-toggle="tab" data-bs-target="#negocios" class="nav-link active text-start ">Gerente de Négocios</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#assistente" class="nav-link text-start ">Gerente Assistente</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#turno" class="nav-link text-start ">Gerente de Turno</button>
+              </nav>
+            </aside>
+            <div class=" experiencia-descricao col-md-8">
+              <div class="tab-content">
+                <div class="tab-pane active" id="negocios">
+                  <div class="row">
+                    <div class=" col-md-12">
+                      <p id="empresa" class="mt-4">Arcos dourados Comercio de Alimentos - ltda
+                        <span class="badge text-bg-info ms-1">2022-2015</span>
+                      </p>
+                      <span class="badge text-bg-info">7-Anos</span>
+                      <h6 class="mb-5 text-colored">Gerente de Négocios</h6>
+                      <p class="descricao-cargo text-start animate from-botton">Profissional responsável por toda a gestão de um restaurante. Liderando e desenvolvendo Equipes, responsável direto por projetaracompanhar e analisar o P&L; desenvolvimento e treinamento degerentes de plantão e trainee, controle de MDO, controle de Turnovere M&R. Elaborando escalas de trabalho; reuniões de funcionários ereuniões de planejamento. Estabelecendo metas e estratégias paraalcançar o Resultado almejado pela Companhia.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="tab-pane" id="assistente">
+                  <div class="row">
+                    <div class=" col-md-12">
+                      <p id="empresa" class="mt-4">Arcos dourados Comercio de Alimentos - ltda<span class="badge text-bg-info ms-1">2012-2014</span></p>
+                      <span class=" badge text-bg-info">3-Anos</span>
+                      <h6 class="mb-5 text-colored">Gerente Assistente</h6>
+                      <p class="descricao-cargo text-start animate from-botton">Profissional responsável pela área de treinamento do Restaurante.Desenvolvendo pessoas para atuar nos segmentos do restaurantebuscando contribuir com o desenvolvimento e motivação da equipeotimizando os resultados. Presta suporte ao Gerente de Negóciosconduzindo pesquisas de satisfação, pedidos de Mercadorias,controle de inventário, análise financeira. Realizando ações junto aoGerente de Negócios para minimizar os custos. Contribuindo paraalcançar os resultados almejados.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class=" tab-pane" id="turno">
+                  <div class="row">
+
+                    <div class="col-md-12">
+                      <p id="empresa" class="mt-4">Arcos dourados Comercio de Alimentos - ltda<span class="badge text-bg-info ms-1">2007-2012</span></p>
+                      <span class=" badge text-bg-info">4-Anos</span>
+                      <h6 class="mb-5 text-colored">Gerente Turno</h6>
+                      <p class="descricao-cargo  text-start">Profissional Responsável por garantir o resultado do Restaurante durante o seu plantão. Através de planejamento de Vendas e Ticket Médio, pesquisas de satisfação do Cliente; também por acompanhar os treinamentos previamente estabelecidos da equipe e todo o atendimento ao cliente em todos os segmentos do Restaurante; controlando o inventário a qualidade e segurança alimentar. Orientando e corrigindo procedimentos durante o seu plantão.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5" id="cursos">
+      <div class="container">
+        <h3 class="text-center animate from-botton">Formação Extra</h3>
+        <div class="row">
+          <aside class="col-md-4">
+            <div>
+              <h4 class="text-center text-colored animate from-top">Curso Superior</h4>
+              <img class="d-block w-100 curso" src="img/icones/uisantana.png" alt="">
+              <h6>Julho - 2023</h6>
+              <h6>Faculdade UniSantana</h6>
+              <h6 class="text-colored">Tecnologo em Redes de Computadores</h6>
+            </div>
+          </aside>
+          <div id="meus-cursos" class="col-md-8">
+            <div class="row">
+              <h5 class=" text-colored ">2023</h5>
+              <div class="col-md-3  cursos">
+
+                <span class="text-colored">Origamid</span>
+                <h5>UI</h5>
+                <P>User Iterface</P>
+                <button class=" btn  btn-secondary" data-bs-toggle="modal" data-bs-target="#ui">
+                  VER
+                </button>
+                <div class="modal" id="ui">
+                  <div class="modal-dialog modal-fullscreen-md-down">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6>Certificado</h6>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                      </div>
+                      <div class="modal-body modal-lg">
+                        <img src="assets/certificados origamid/UI-origamid.png" alt="" class="d-block w-100">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3  cursos ">
+
+                <span class="text-colored">FIAP</span>
+                <h5>UX</h5>
+                <p>User Experience</p>
+                <button class=" btn  btn-secondary" data-bs-toggle="modal" data-bs-target="#ux">
+                  VER
+                </button>
+                <div class="modal" id="ux">
+                  <div class="modal-dialog modal-fullscreen-md-down">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6>Certificado</h6>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                      </div>
+                      <div class="modal-body modal-lg" id="mdn">
+                        <img src="assets/Certificado Fiap/UX user-experience.png" alt="" class="d-block w-100">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3  cursos ">
+
+                <span class="text-colored">Udemy</span>
+                <h5>Git-GitHub</h5>
+                <p>Do zero ao Avançado</p>
+                <button class=" btn  btn-secondary" data-bs-toggle="modal" data-bs-target="#git">
+                  VER
+                </button>
+                <div class="modal" id="git">
+                  <div class="modal-dialog modal-fullscreen-md-down">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6>Certificado</h6>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                      </div>
+                      <div class="modal-body modal-lg">
+                        <img src="assets/Certificado Udemy/git-github.png" alt="" class="d-block w-100">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <h5 class=" text-colored ">2022</h5>
+              <div class="col-md-3  cursos ">
+
+                <span class="text-colored">Estudonauta</span>
+                <h5>HTM5&CSS3</h5>
+                <p>Modulo 1</p>
+                <button class=" btn  btn-secondary" data-bs-toggle="modal" data-bs-target="#html1">
+                  VER
+                </button>
+                <div class="modal" id="html1">
+                  <div class="modal-dialog modal-fullscreen-md-down">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6>Certificado</h6>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                      </div>
+                      <div class="modal-body modal-lg">
+                        <img src="assets/certificados curso em video/estudonauta-modulo-1.png" alt="" class="d-block w-100">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3  cursos ">
+
+                <span class="text-colored">Estudonauta</span>
+                <h5>HTM5&CSS3</h5>
+                <p>Modulo 2</p>
+                <button class=" btn  btn-secondary" data-bs-toggle="modal" data-bs-target="#html2">
+                  VER
+                </button>
+                <div class="modal" id="html2">
+                  <div class="modal-dialog modal-fullscreen-md-down">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6>Certificado</h6>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                      </div>
+                      <div class="modal-body modal-lg">
+                        <img src="assets/certificados curso em video/estudonauta-modulo-2.png" alt="" class="d-block w-100">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3  cursos ">
+
+                <span class="text-colored">Estudonauta</span>
+                <h5>HTM5&CSS3</h5>
+                <p>Modulo 3</p>
+                <button class=" btn  btn-secondary" data-bs-toggle="modal" data-bs-target="#html3">
+                  VER
+                </button>
+                <div class="modal" id="html3">
+                  <div class="modal-dialog modal-fullscreen-md-down">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6>Certificado</h6>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                      </div>
+                      <div class="modal-body modal-lg">
+                        <img src="assets/certificados curso em video/estudonauta-modulo-3.png" alt="" class="d-block w-100">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3  cursos ">
+
+                <span class="text-colored">Estudonauta</span>
+                <h5>HTM5&CSS3</h5>
+                <p>Modulo 4</p>
+                <button class=" btn  btn-secondary" data-bs-toggle="modal" data-bs-target="#html4">
+                  VER
+                </button>
+                <div class="modal" id="html4">
+                  <div class="modal-dialog modal-fullscreen-md-down">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6>Certificado</h6>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                      </div>
+                      <div class="modal-body modal-lg">
+                        <img src="assets/certificados curso em video/estudonauta-modulo-4.png" alt="" class="d-block w-100">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3  cursos ">
+
+                <span class="text-colored">Estudonauta</span>
+                <h5>JAVASCRIPT</h5>
+                <p>JavaScript Iniciante </p>
+                <button class=" btn  btn-secondary" data-bs-toggle="modal" data-bs-target="#javascript">
+                  VER
+                </button>
+                <div class="modal" id="javascript">
+                  <div class="modal-dialog modal-fullscreen-md-down">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6>Certificado</h6>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                      </div>
+                      <div class="modal-body modal-lg">
+                        <img src="assets/certificados curso em video/estudonauta-javascript.png" alt="" class="d-block w-100">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tecnologias">
+      <div class="container">
+        <h2 class="subtitulo mb-5 animate from-right">Tecnolgias & Ferramentas</h2>
+        <div class="row d-flex justify-content-center">
+
+          <div class="col-md-3 col-sm-6 colunas animate from-botton2">
+            <div class="card text-bg-dark d-block w-100">
+              <i class="devicon-html5-plain"></i>
+              <h6 class="text-center">HTML5</h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 colunas animate from-botton1 ">
+            <div class="card text-bg-dark d-block w-100">
+              <i class="devicon-css3-plain"></i>
+              <h6 class="text-center">CSS3</h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 colunas animate from-botton">
+            <div class="card text-bg-dark d-block w-100">
+              <i class="devicon-javascript-plain"></i>
+              <h6 class="text-center">JAVASCRIPT</h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 colunas animate from-botton2">
+            <div class="card text-bg-dark d-block w-100">
+              <i class="devicon-jquery-plain"></i>
+              <h6 class="text-center">JQUERY</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 colunas animate from-botton1">
+            <div class="card text-bg-dark d-block w-100">
+              <i class="devicon-bootstrap-plain"></i>
+              <h6 class="text-center">BOOTSTRAP</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 colunas animate from-botton">
+            <div class="card text-bg-dark d-block w-100">
+              <i class="devicon-sass-original"></i>
+              <h6 class="text-center">SASS</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 colunas animate from-botton2">
+            <div class="card text-bg-dark d-block w-100">
+              <i class="devicon-gulp-plain"></i>
+              <h6 class="text-center">GULP</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer id="contato">
+      <div class="container">
+        <div class="row">
+          <a class=" d-block text-center pe-5" href="#">
+            <h6 class="bi bi-chevron-double-up text-colored">
+              Voltar ao Topo</h6>
+          </a>
+
+
+          <div class="col-md-6 mt-5">
+            <div class="contact">
+              <p class="animate from-left">Estou dispoinvel para novos Projetos 👋</p>
+              <p class="animate from-left" id="conversa">Entre em contato para marcarmos uma conversa</p>
+              <p id="e-mail" class="text-color animate from-left">emmanuelmarcosdeoliveira@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 contato text-end">
+            <a href="https://wa.me/5511968336094" target="_blank">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/-emmanuel-oliveira/" target="_blank">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:emmanuelmarcosdeoliveira@gmail.com">
+              <i class="bi bi-envelope-at-fill"></i>
+            </a>
+            <a href="https://github.com/emmanuelmarcosdeoliveira" target="_blank">
+              <i class="bi bi-github"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <div id="copy">
+        <p class="p-3 text-center">2023 &copy <span class="text-color"> Emmanuel Marcos de Olivera </span> - Alguns Diretios Rerservados</p>
+      </div>
+    </footer>
+  </div>
+
+  </div>
+  <script src="lib/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/digitar_sozinho.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.colunas {
+  width: 150px;
+  }
+.card i {
+  color:  #775cef;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  padding: 20px;
+margin: 10px;
+opacity: 95%;
+}
+.card{
+  background-color:#00000018;
+  margin-bottom: 20px;
+  box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.3);
+  }
+  .card:hover {
+    transform: scale(1.2);
+
+  }
+.card h6 {
+  background-color:  #775cef;
+  margin: -1px;
+  color:  #e4e1e1;
+  border-radius: 0px 0px 8px 8px ;
+  padding: 08px;
+}
+.row {
+  padding-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  .tecnologias-icones i {
+    font-size: 80px;
+  }
+  .colunas {
+    width: 150px;
+    border-radius: 8px;
+  }
+}

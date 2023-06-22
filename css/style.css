@@ -1,0 +1,11 @@
+@import "global/global.css";
+@import "./utilitarios/cores.css";
+@import "./header.css";
+@import "./home.css";
+@import "./apresentacao.css";
+@import "./portifolio.css";
+@import "./experiencia.css";
+@import "./cursos.css";
+@import "./tecnologias.css";
+@import "./footer.css";
+

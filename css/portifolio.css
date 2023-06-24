@@ -2,11 +2,9 @@
   width: 470px;
 }
 .portifolio h6 {
-  margin-bottom: 20px ;
- 
- 
+  margin-bottom: 20px;
 }
- .portifolio  a {
+.portifolio a {
   font-weight: 400;
   margin: 10px 5px;
   display: inline-block;
@@ -50,10 +48,9 @@
   }
 }
 @media (max-width: 600px) {
-  .portifolio-descricao p {
-font-size: 12px;
-  }
   .portifolio h4 {
     text-align: center;
-  }
+  } p {
+  font-size: 18px;
+}
 }

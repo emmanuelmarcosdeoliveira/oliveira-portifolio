@@ -1,43 +1,47 @@
 #experiencia .nav-link.active {
   width: 210px;
-  background-color:  #00000018;
-  border-left: 3px solid  #5cef ;
+  background-color: #00000018;
+  border-left: 3px solid #5cef;
   border-radius: 0px;
 }
 #experiencia .nav-link:hover {
-  color:  #5cef ;
+  color: #5cef;
 }
 
 #experiencia aside {
   border-radius: 8px;
   padding: 40px 20px;
-  background-color:#00000018;
- 
+  background-color: #00000018;
 }
 
 .experiencia-descricao {
   border-radius: 8px;
   width: 845px;
   height: 400px;
-  background-color:  #00000018;
+  background-color: #00000018;
   box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.2);
 }
 .descricao-cargo {
-  font-size: 1.2rem;
+  font-size: 18px;
   color: #d6cfcf;
 }
-@media (max-width: 1500px){
+@media (max-width: 1500px) {
   .experiencia-descricao {
     width: 500px;
     height: 550px;
-    } 
+  }
 }
 @media (max-width: 600px) {
   .experiencia-descricao {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
   }
-  #empresa{
+  #empresa {
     font-size: 14px;
-  } 
-  
+  }
+  .descricao-cargo {
+    font-size: 18px;
+  }
+  .experiencia-descricao {
+    height: 650px;
+  }
 }

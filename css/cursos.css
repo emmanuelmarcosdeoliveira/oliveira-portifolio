@@ -55,4 +55,13 @@ aside .curso {
   #meus-cursos {
     margin-left: 10px;
   }
+  /* #meus-cursos p {
+    display: block;
+  } */
+  .cursos {
+    height: 150px;
+    }
+  .cursos p {
+    font-size: 12px;
+  }
  }

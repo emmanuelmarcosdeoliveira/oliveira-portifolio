@@ -4,12 +4,7 @@ body {
   color: #fafafa;
   overflow-x: hidden;
 }
-html,
-body {
-  margin: 0;
-  height: 100%;
-  overflow-x: hidden;
-}
+
 .home-profissao {
   font-family: "Bruno Ace", cursive;
 }
@@ -59,4 +54,12 @@ body {
   #texto {
     text-align: center;
   }
+ }
+@media (max-width: 600px ) {
+  html,
+body{
+  margin:0;
+  height: 100%;
+  overflow-x: hidden;
+ }
 }

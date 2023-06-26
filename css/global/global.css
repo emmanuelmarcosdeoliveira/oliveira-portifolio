@@ -4,12 +4,7 @@ body {
   color: #fafafa;
   overflow-x: hidden;
 }
-html,
-body {
-  margin: 0;
-  height: 100%;
-  overflow-x: hidden;
-}
+
 .home-profissao {
   font-family: "Bruno Ace", cursive;
 }
@@ -46,8 +41,8 @@ body {
   background-color: #775cef;
 }
 ::-webkit-scrollbar {
-  width: 10px;
-  background: #7c7694;
+  color: #775cef;
+  width: 8px;
 }
 ::-webkit-scrollbar-thumb {
   background: #4c35b1c7;
@@ -58,5 +53,22 @@ body {
   }
   #texto {
     text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
   }
 }

@@ -39,6 +39,13 @@
 .home-profissao a i {
   font-size: 18px;
 }
+
+#texto {
+  text-align: left;
+}
+#texto-cidade {
+  text-align: left;
+}
 /* Responsivo*/
 @media (max-width: 600px) {
   .home-profissao {

@@ -1,75 +1,78 @@
 .home-imagem img {
-   opacity: 80%;
-   width: 580px;
- }
+  opacity: 80%;
+  width: 580px;
+}
 .home-profissao {
   margin-top: 120px;
- }
-.home-profissao  h1 {
-    font-size: 42px;
+}
+.home-profissao h1 {
+  font-size: 42px;
   font-weight: 700;
 }
-.home-profissao  h3 {
+.home-profissao h3 {
+  text-align: start !important;
   font-size: 68px;
   font-weight: 600;
   color: #775cef;
 }
-.home-profissao  p {
- font-size: 18px;
- padding-left: 10px;
+.home-profissao p {
+  font-size: 18px;
+  padding-left: 10px;
 }
-.home-profissao  a {
-  display:inline-block;
- margin: 0px 5px;
+.home-profissao a {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0px 5px;
   font-weight: 500;
-  padding: 10px 25px;
+  padding: 10px 15px;
   border-radius: 8px;
-  border: 1px solid  #775cef;
-  box-shadow: 1px 1px 2px #775cef; 
-  color: #fafafa;
+  border: 1px solid #775cef;
+  box-shadow: 1px 1px 2px #775cef;
+  color: #fff;
   text-decoration: none;
-  }
-    .home-profissao  a:hover {
-      background-image: linear-gradient(#775cef, #684fdab2);
-  } .home-profissao a i {
-    font-size: 18px;
-  } 
- 
-
-
-
+  width: 170px;
+  background-image: linear-gradient(#775cef, #684fdab2);
+}
+.home-profissao a:hover {
+  background-image: linear-gradient(#654add67, #613ff8d8);
+}
+.home-profissao a i {
+  font-size: 18px;
+}
 /* Responsivo*/
 @media (max-width: 600px) {
-    .home-profissao {
-      margin-top: 60px;
-    }
-    .home-profissao  h1 {
-      display: flex;
-      justify-content: center;
-      font-size: 24px;
-      font-weight: 600;
-    }
-    .home-profissao h3{
-      text-align: center;
-    
-      width: 350px;
-      font-size: 36px;
-      font-weight: 600;
-      color: #775cef;
-    }
-    .home-profissao p {
-      display: flex;
-      justify-content:center;
-    }
-    .home-profissao  a {
-     margin: 0px 15px;
-      display:inline-block;
-      align-items: center;
-      font-size: 12px;
-      font-weight: 500;
-      padding: 10px 20px;
-     
-      } .home-imagem img {
-        width: 350px;
-      }
-    }
+  .home-profissao {
+    margin-top: 60px;
+  }
+  .home-profissao h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .home-profissao h3 {
+    margin: 0 auto;
+    width: 350px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #775cef;
+    text-align: center !important;
+  }
+  .home-profissao p {
+    display: flex;
+    justify-content: center;
+  }
+  .home-profissao a {
+    margin: 0px 10px;
+    display: inline-block;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 10px;
+    width: 140px;
+    margin-left: 20px;
+  }
+  .home-imagem img {
+    width: 350px;
+  }
+}

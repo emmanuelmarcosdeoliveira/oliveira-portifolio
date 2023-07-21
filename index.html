@@ -15,14 +15,22 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/global/animate-on-scroll.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NC66C0PKJV"></script>
+<script defer>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NC66C0PKJV');
+</script>
 </head>
 
 <body>
 
-  <header class="navbar navbar-expand-lg sticky-top">
+  <header class="navbar navbar-expand-lg sticky-top" id="topo">
     <div class="container">
       <h1 class="navbar-brand m-0"><span>
-          < </span>Oliveira<span> /><span /></h1>
+          < </span>Oliveira <i class="text-colored">/</i><span>></span> </h1>
       <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -59,7 +67,7 @@
   </header>
 
   <div data-bs-spy="scroll" data-bs-target="menu">
-    
+
     <section class="container" id="home" aria-label="Home">
       <div class="row">
         <div class="col-md-6 animate from-left">
@@ -74,14 +82,14 @@
 
             </div>
             <h1 class="animate"> <span> </> </span> Desenvolvedor</h1>
-            <h3 class="animate from-right"> Fron-End UX/UI Designer</h3>
+            <h3 class="animate from-right text-center"> Fron-End UX/UI Designer</h3>
             <p id="texto" class="animate from-right">São Paulo - SP</p>
             <a class="animate from-left" href="assets/curriculum/Curricum - Front-End Black.pdf" download="CV-Emmanuel_Oliveira" type="application/pdf">
-              <i class="bi bi-download"></i>
+              <i class="bi bi-download pe-2"></i>
               Curriculum</a>
 
             <a class="animate from-right" href="https://www.linkedin.com/in/-emmanuel-oliveira/" target="_blank">
-              <i class=" from-right bi bi-linkedin"></i>
+              <i class=" from-right bi bi-linkedin pe-2"></i>
               Linkedin</a>
           </div>
         </div>
@@ -118,7 +126,7 @@
           <aside class="col-md-2">
             <nav class="nav nav-pills flex-column ">
               <button type="button" data-bs-toggle="tab" data-bs-target="#bikcraft" class="text-start nav-link active mb-2">Android</button>
-              <button type="button" data-bs-toggle="tab" data-bs-target="#android" class="text-start nav-link  mb-2">Em Breve</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#android" class="text-start nav-link  mb-2">Bikcraft</button>
               <button type="button" data-bs-toggle="tab" data-bs-target="#restaurante" class="text-start nav-link  mb-2">Em Breve</button>
               <button type="button" data-bs-toggle="tab" data-bs-target="#em-breve" class="text-start nav-link">Em Breve</button>
             </nav>
@@ -156,25 +164,27 @@
               <div class="tab-pane" id="android">
                 <div class="row">
                   <div class="col-md-6">
-                    <h5 class="text-center">Android</h5>
-                    <img class="d-block w-100" src="img/projetos/Group 10.png" alt="Projeto Android">
+                    <h6 class="text-center text-color">Projeto</h6>
+                    <h5 class="text-center mb-5">Bikcraft</h5>
+                    <img class="d-block w-100 mb-3" src="img/projetos/bik.png" alt="Projeto Bikcraft">
                   </div>
                   <div class=" botao col-md-6">
                     <h4 class=" text-color animate from-left mb-3">Descrição do Projeto</h4>
-                    <p class="animate from-right text-start">Nesse exercício foi criado uma pagina com base em HTML e CSS, contando um pouco da história do masacote Android, aonde temos links que direcionam para as páginas de Dan Morril que fez a primeira versão do mascote e também para a página de Irina Block, a ilutradora do mascote. Nessa página, também temos a descrição dos nomes das versões do Android desde a sua versão inicial que é a v1.5</p>
+                    <p class="animate from-right text-start">Esse é um Site Final desenvolvido no curso da Origamid de HTML e CSS para iniciantes. </p>
                     <h6>Tecnologias Utilizadas</h6>
                     <div class="icones-projetos me-5  animate from-top">
                       <i class="devicon-html5-plain  animate from-top"></i>
                       <i class="devicon-css3-plain  animate from-top"></i>
+                      <i class="devicon-javascript-plain  animate from-top"></i>
                     </div>
                     <div>
-                      <a href="" class="animate from-botton2 m-0">
+                      <a href="https://bikcraft-woad.vercel.app/" class="animate from-botton2 m-0">
                         <i class="bi bi-globe-americas"></i>
                         Deploy</a>
-                      <a href="" class="animate from-botton1">
+                      <a href="https://github.com/emmanuelmarcosdeoliveira/bikcraft" class="animate from-botton1">
                         <i class="bi bi-github"></i>
                         Github</a>
-                      <a href="" class="animate from-botton">
+                      <a href="https://www.figma.com/file/VpnU0dQWEySgFPf5Tlm15z/bikcraft?type=design&node-id=8%3A3&mode=design&t=XAAd7lsChnDnpcox-1" class="animate from-botton">
                         <i class="bi bi-link-45deg"></i>
                         Figma</a>
                     </div>
@@ -211,7 +221,7 @@
                       </p>
                       <span class="badge text-bg-info">7-Anos</span>
                       <h6 class="mb-5 text-colored">Gerente de Négocios</h6>
-                      <p class="descricao-cargo text-start animate from-botton">Profissional responsável por toda a gestão do restaurante. Liderando e desenvolvendo Equipes, responsável direto por projetar, acompanhar e analisar o P&L(Profit & Loss Statement); desenvolvimento e treinamento de Gerentes, controle de MDO (mão de obra), controle de TurnOver(entradas/saídas) ;M&R(Manutenção e Reparos).Estabelecendo metas e estratégias para alcançar o Resultado almejado pela Companhia.</p>
+                      <p class="descricao-cargo text-start animate from-botton2">Profissional responsável por toda a gestão do restaurante. Liderando e desenvolvendo Equipes, responsável direto por projetar, acompanhar e analisar o P&L (Profit & Loss Statement); desenvolvimento e treinamento de Gerentes, controle de MDO   (mão de obra), controle de TurnOver (entradas/saídas) ;M&R(Manutenção e Reparos). Estabelecendo metas e estratégias para alcançar o Resultado almejado pela Companhia.</p>
                     </div>
                   </div>
 
@@ -223,7 +233,7 @@
                       <p id="empresa" class="mt-4">Arcos dourados Comercio de Alimentos - ltda<span class="badge text-bg-info ms-1">2012-2014</span></p>
                       <span class=" badge text-bg-info">3-Anos</span>
                       <h6 class="mb-5 text-colored">Gerente Assistente</h6>
-                      <p class="descricao-cargo text-start animate from-botton">Profissional responsável pela área de treinamento do Restaurante. Desenvolvendo pessoas para atuar nos segmentos do restaurantebuscando contribuir com o desenvolvimento e motivação da equipeotimizando os resultados. Presta suporte ao Gerente de Negócios conduzindo pesquisas de satisfação, pedidos de Mercadorias, controle de inventário, análise financeira. Realizando ações junto aoGerente de Negócios para minimizar os custos. Contribuindo paraalcançar os resultados almejados.</p>
+                      <p class="descricao-cargo text-start animate from-botton">Profissional responsável pela área de treinamento do Restaurante.Desenvolvendo pessoas para atuar nos segmentos do restaurante buscando contribuir com o desenvolvimento e motivação da equipe, otimizando os resultados. Prestando suporte ao Gerente de Negócios conduzindo pesquisas de satisfação, pedidos de Mercadorias,controle de inventário, análise financeira. Realizando ações junto ao Gerente de Negócios para minimizar os custos. Contribuindo para alcançar os resultados almejados.</p>
                     </div>
                   </div>
                 </div>
@@ -234,7 +244,7 @@
                       <p id="empresa" class="mt-4">Arcos dourados Comercio de Alimentos - ltda<span class="badge text-bg-info ms-1">2007-2012</span></p>
                       <span class=" badge text-bg-info">4-Anos</span>
                       <h6 class="mb-5 text-colored">Gerente Turno</h6>
-                      <p class="descricao-cargo  text-start">Profissional Responsável por garantir o resultado do Restaurante durante o seu plantão. Através de planejamento de Vendas e Ticket Médio, pesquisas de satisfação do Cliente; também por acompanhar os treinamentos previamente estabelecidos da equipe e todo o atendimento ao cliente em todos os segmentos do Restaurante; controlando o inventário a qualidade e segurança alimentar. Orientando e corrigindo procedimentos durante o seu plantão.</p>
+                      <p class="descricao-cargo  text-start animate from-botton2">Profissional Responsável por garantir o resultado do Restaurante durante o seu plantão. Através de planejamento de Vendas e Ticket Médio, pesquisas de satisfação do Cliente; também por acompanhar os treinamentos previamente estabelecidos da equipe e todo o atendimento ao cliente em todos os segmentos do Restaurante; controlando o inventário a qualidade e segurança alimentar. Orientando e corrigindo procedimentos durante o seu plantão.</p>
                     </div>
                   </div>
                 </div>
@@ -252,7 +262,7 @@
           <aside class="col-md-4">
             <div>
               <h4 class="text-center text-colored animate from-top">Curso Superior</h4>
-              <img class="d-block w-100 curso" src="img/icones/uisantana.png" alt="">
+              <img class="d-block w-100 curso animate from-botton2" src="img/icones/uisantana.png" alt="">
               <h6>Julho - 2023</h6>
               <h6>Faculdade UniSantana</h6>
               <h6 class="text-colored">Tecnologo em Redes de Computadores</h6>
@@ -261,6 +271,29 @@
           <div id="meus-cursos" class="col-md-8">
             <div class="row">
               <h5 class=" text-colored ">2023</h5>
+              <div class="col-md-3  cursos">
+
+                <span class="text-colored">Origamid</span>
+                <h5>HTML e CSS</h5>
+                <P>Para Iniciantes</P>
+                <button class=" btn  btn-secondary" data-bs-toggle="modal" data-bs-target="#ui">
+                  VER
+                </button>
+                <div class="modal" id="ui">
+                  <div class="modal-dialog modal-fullscreen-md-down">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6>Certificado</h6>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                      </div>
+                      <div class="modal-body modal-lg">
+                        <img src="assets/certificados origamid/html-css-origamid.png" alt="" class="d-block w-100">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
               <div class="col-md-3  cursos">
 
                 <span class="text-colored">Origamid</span>
@@ -500,6 +533,24 @@
               <h6 class="text-center">GULP</h6>
             </div>
           </div>
+          <div class="col-md-4 col-sm-6 colunas animate from-botton">
+            <div class="card text-bg-dark d-block w-100">
+              <i class="bi bi-github"></i>
+              <h6 class="text-center">GITHUB</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 colunas animate from-botton1">
+            <div class="card text-bg-dark d-block w-100">
+              <i class="bi bi-git"></i>
+              <h6 class="text-center">GIT</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 colunas animate from-botton1">
+            <div class="card text-bg-dark d-block w-100">
+              <i class="devicon-less-plain-wordmark"></i>
+              <h6 class="text-center">LESS</h6>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -508,17 +559,23 @@
     <footer id="contato">
       <div class="container">
         <div class="row">
-          <!-- <a class=" d-block text-center pe-5" href="#topo">
-            <h6 class="bi bi-chevron-double-up text-colored">
-              Voltar ao Topo</h6>
-          </a> -->
+
+          <div data-scroll="suave" class="text-center">
+            <a href="#">
+              <div class="topo">
+                <i class="bi bi-caret-up-square-fill text-color pe-1"></i>
+                Votar ao Topo
+              </div>
+            </a>
+          </div>
+
 
 
           <div class="col-md-6 mt-5">
             <div class="contact">
               <p class="animate from-left">Estou dispoinvel para novos Projetos 👋</p>
               <p class="animate from-left" id="conversa">Entre em contato para marcarmos uma conversa</p>
-              <p id="e-mail" class="text-color animate from-left">emmanuelmarcosdeoliveira@gmail.com</p>
+              <p id="e-mail" class="text-color animate from-left">dev-oliveira@outlook.com.br</p>
             </div>
           </div>
           <div class="col-md-6 mt-5 contato text-end">
@@ -528,7 +585,7 @@
             <a href="https://www.linkedin.com/in/-emmanuel-oliveira/" target="_blank">
               <i class="bi bi-linkedin"></i>
             </a>
-            <a href="mailto:emmanuelmarcosdeoliveira@gmail.com">
+            <a href="mailto:dev-oliveira@outlook.com.br">
               <i class="bi bi-envelope-at-fill"></i>
             </a>
             <a href="https://github.com/emmanuelmarcosdeoliveira" target="_blank">
@@ -543,9 +600,9 @@
       </div>
     </footer>
   </div>
-
   <script src="lib/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
   <script src="js/digitar_sozinho.js"></script>
 </body>
+
 </html>

@@ -37,9 +37,10 @@ footer a {
  padding: 10px;
  color: #fff;
  text-decoration: none;
- 
-}
-
+ }
+ .bi-caret-up-square-fill {
+  font-size: 12px;
+ }
 @media (max-width: 1500px){
   #conversa {
     font-size: 21px;

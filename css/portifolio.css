@@ -31,6 +31,20 @@
 .tab-pane h5 {
   margin-bottom: -40px;
 }
+.portifolio h3 {
+  position: relative;
+}
+
+.portifolio h3::before {
+  content:" ";
+  display: block;
+  width: 250px;
+  height: 250px;
+  background: url(../img/ilustracoes/monitor3.png) no-repeat center;
+  top: -80px; 
+  right: 80px;
+  position: absolute;
+}
 
 /* Resposnivo*/
 @media (max-width: 1500px) {
@@ -45,6 +59,9 @@
     box-shadow: 1px 1px 3px #775cef;
     color: #fafafa;
     text-decoration: none;
+  }
+  .portifolio h3::before {
+    display: none;
   }
 }
 @media (max-width: 600px) {

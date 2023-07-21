@@ -3,6 +3,9 @@
   background-color: #222631;
   font-family: "Roboto", sans-serif;
 }
+.navbar i {
+  font-size: 48px;
+}
 /* Logo  - Marca */
 .navbar-brand {
   font-size: 42px;
@@ -63,5 +66,8 @@
   }
   .navbar-toggler {
     margin-right: 20px;
+  }
+  .navbar i {
+    font-size: 42px;
   }
 }

@@ -15,14 +15,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/global/animate-on-scroll.css">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NC66C0PKJV"></script>
-<script defer>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NC66C0PKJV');
-</script>
 </head>
 
 <body>
@@ -82,6 +74,9 @@
 
             </div>
             <h1 class="animate"> <span> </> </span> Desenvolvedor</h1>
+            <h3 class="animate from-right text-center"> Fron-End UX/UI Designer</h3>
+            <p id="texto" class="animate from-right">São Paulo - SP</p>
+            <a class="animate from-left" href="assets/curriculum/curriculum-dev-oliveira.pdf" download="CV-Emmanuel_Oliveira" type="application/pdf">
             <h3 class="animate from-right text-center"> Fron-End/UI Designer</h3>
             <p id="texto-cidade" class="animate from-right">São Paulo - SP</p>
             <a class="animate from-left" href="assets/curriculum/Curricum - Front-End Black.pdf" download="CV-Emmanuel_Oliveira" type="application/pdf">
@@ -127,7 +122,8 @@
             <nav class="nav nav-pills flex-column ">
               <button type="button" data-bs-toggle="tab" data-bs-target="#bikcraft" class="text-start nav-link active mb-2">Android</button>
               <button type="button" data-bs-toggle="tab" data-bs-target="#android" class="text-start nav-link  mb-2">Bikcraft</button>
-              <button type="button" data-bs-toggle="tab" data-bs-target="#restaurante" class="text-start nav-link  mb-2">Em Breve</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#sorteador" class="text-start nav-link  mb-2">Sorteador</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#restaurante" class="text-start nav-link">Restaurante Bristro</button>
               <button type="button" data-bs-toggle="tab" data-bs-target="#em-breve" class="text-start nav-link">Em Breve</button>
             </nav>
           </aside>
@@ -137,12 +133,12 @@
                 <div class="row">
                   <div class="col-md-6">
                     <h6 class="text-center text-color">1° Projeto</h6>
-                    <h5 class="text-center">Android</h5>
-                    <img class="d-block w-100" src="img/projetos/Group 10.png" alt="Projeto Android">
+                    <h5 class="text-center"> Android</h5>
+                    <img class="d-block w-100" src="assets/img-projetos/Android1.png" alt="Projeto Android">
                   </div>
                   <div class="col-md-6">
                     <h4 class=" text-color animate from-left mb-3">Descrição do Projeto</h4>
-                    <p class="animate from-right text-start">Nesse exercício foi criado uma pagina com base em HTML e CSS, contando um pouco da história do mascote Android, aonde temos links que direcionam para as páginas de Dan Morril que fez a primeira versão do mascote e também para a página de Irina Block, a Ilustradora do mascote. Nessa página, também temos a descrição dos nomes das versões do Android desde a sua versão inicial que é a v1.5</p>
+                    <p class="animate from-right text-start">Nesse exercício foi criado uma página com base em HTML e CSS, contando um pouco da história da mascote do Android, onde temos links que direcionam para as páginas de Dan Morril que fez a primeira versão da mascote e para a página de Irina Block, a Ilustradora da mascote. Nessa página, também temos a descrição dos nomes das versões do Android desde a sua versão inicial que é a v1.5</p>
                     <h6>Tecnologias Utilizadas</h6>
                     <div class="icones-projetos me-5 animate from-top">
                       <i class="devicon-html5-plain  animate from-top"></i>
@@ -166,11 +162,12 @@
                   <div class="col-md-6">
                     <h6 class="text-center text-color">Projeto</h6>
                     <h5 class="text-center mb-5">Bikcraft</h5>
-                    <img class="d-block w-100 mb-3" src="img/projetos/bik.png" alt="Projeto Bikcraft">
+                    <img class="d-block w-100 mb-3" src="assets/img-projetos/bikcraft.png" alt="Projeto Bikcraft">
                   </div>
                   <div class=" botao col-md-6">
                     <h4 class=" text-color animate from-left mb-3">Descrição do Projeto</h4>
-                    <p class="animate from-right text-start">Esse é um Site Final desenvolvido no curso da Origamid de HTML e CSS para iniciantes. </p>
+                    <p class="animate from-right text-start">Esse é o Site Final desenvolvido no curso da Origamid de HTML e CSS para iniciantes. Ele simula uma loja de Bicicletas Elétricas, onde temos 03 modelos, podendo ver suas características e solicitar um orçamento. Fazendo essa solicitação através do Formulário que contêm no Site.
+                    </p>
                     <h6>Tecnologias Utilizadas</h6>
                     <div class="icones-projetos me-5  animate from-top">
                       <i class="devicon-html5-plain  animate from-top"></i>
@@ -191,8 +188,73 @@
                   </div>
                 </div>
               </div>
+              <div class="tab-pane" id="sorteador">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h6 class="text-center text-color">Projeto</h6>
+                    <h5 class="text-center mb-5">Sorteador de Números</h5>
+                    <img class="d-block w-100 mb-3" src="assets/img-projetos/sort.png" alt="Projeto Sorteador de Numeros">
+                  </div>
+                  <div class=" botao col-md-6">
+                    <h4 class=" text-color animate from-left mb-3">Descrição do Projeto</h4>
+                    <p class="animate from-right text-start">Esse Projeto é um Site onde temos uma Aplicação em Javascript que realiza o sorteio aleatório de Números. Onde temos que 1° digitar um valor máximo que queremos que ele faça o Sorteio e depois temos que clicar na tecla Sortear Número. Logo Após ele irá retornar o Número Sorteado</p>
+                    <h6>Tecnologias Utilizadas</h6>
+                    <div class="icones-projetos me-5  animate from-top">
+                      <i class="devicon-html5-plain  animate from-top"></i>
+                      <i class="devicon-css3-plain  animate from-top"></i>
+                      <i class="devicon-javascript-plain  animate from-top"></i>
+                      <i class="devicon-less-plain-wordmark"></i>
+                      <i class="devicon-grunt-line"></i>
+                    </div>
+                    <div>
+                      <a href="https://sorteadornumeros-tau.vercel.app/" class="animate from-botton2 m-0" target="_blank">
+                        <i class="bi bi-globe-americas"></i>
+                        Deploy</a>
+                      <a href="https://github.com/emmanuelmarcosdeoliveira/grunt-dev" class="animate from-botton1" target="_blank">
+                        <i class="bi bi-github"></i>
+                        Github</a>
+                      <!-- <a href="https://www.figma.com/file/VpnU0dQWEySgFPf5Tlm15z/bikcraft?type=design&node-id=8%3A3&mode=design&t=XAAd7lsChnDnpcox-1" class="animate from-botton">
+                        <i class="bi bi-link-45deg"></i>
+                        Figma</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="restaurante">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h6 class="text-center text-color">Projeto</h6>
+                    <h5 class="text-center mb-5">Restaurante Bistro</h5>
+                    <img class="d-block w-100 mb-3" src="assets/img-projetos/rest-apre.png" alt="Projeto Restaurante Bistro">
+                  </div>
+                  <div class=" botao col-md-6">
+                    <h4 class=" text-color animate from-left mb-3">Descrição do Projeto</h4>
+                    <p class="animate from-right text-start">Esse Projeto foi desenvolvido para meu Aprendizado com Bootstrap. Ele simula um site de Restaurante onde é divulgado os Espaços e seu cardápio. Também possui um Formulário para o envio de dúvidas</p>
+                    <h6>Tecnologias Utilizadas</h6>
+                    <div class="icones-projetos me-5  animate from-top">
+                      <i class="devicon-html5-plain  animate from-top"></i>
+                      <i class="devicon-css3-plain  animate from-top"></i>
+                      <i class="devicon-javascript-plain  animate from-top"></i>
+                      <i class="devicon-bootstrap-plain"></i>
+
+                    </div>
+                    <div>
+                      <a href="https://restaurante-bistro.vercel.app/" class="animate from-botton2 m-0" target="_blank">
+                        <i class="bi bi-globe-americas"></i>
+                        Deploy</a>
+                      <a href="https://github.com/emmanuelmarcosdeoliveira/restaurante" class="animate from-botton1" target="_blank">
+                        <i class="bi bi-github"></i>
+                        Github</a>
+                      <!-- <a href="https://www.figma.com/file/VpnU0dQWEySgFPf5Tlm15z/bikcraft?type=design&node-id=8%3A3&mode=design&t=XAAd7lsChnDnpcox-1" class="animate from-botton">
+                        <i class="bi bi-link-45deg"></i>
+                        Figma</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -221,7 +283,7 @@
                       </p>
                       <span class="badge text-bg-info">7-Anos</span>
                       <h6 class="mb-5 text-colored">Gerente de Négocios</h6>
-                      <p class="descricao-cargo text-start animate from-botton2">Profissional responsável por toda a gestão do restaurante. Liderando e desenvolvendo Equipes, responsável direto por projetar, acompanhar e analisar o P&L (Profit & Loss Statement); desenvolvimento e treinamento de Gerentes, controle de MDO   (mão de obra), controle de TurnOver (entradas/saídas) ;M&R(Manutenção e Reparos). Estabelecendo metas e estratégias para alcançar o Resultado almejado pela Companhia.</p>
+                      <p class="descricao-cargo text-start animate from-botton2">Profissional responsável por toda a gestão do restaurante. Liderando e desenvolvendo Equipes, responsável direto por projetar, acompanhar e analisar o P&L (Profit & Loss Statement); desenvolvimento e treinamento de Gerentes, controle de MDO (mão de obra), controle de TurnOver (entradas/saídas) ;M&R(Manutenção e Reparos). Estabelecendo metas e estratégias para alcançar o Resultado almejado pela Companhia.</p>
                     </div>
                   </div>
 
@@ -272,7 +334,28 @@
             <div class="row">
               <h5 class=" text-colored ">2023</h5>
               <div class="col-md-3  cursos">
+                <span class="text-colored">Origamid</span>
+                <h5>FlexBox</h5>
+                <P>CSS FlexBox</P>
+                <button class=" btn  btn-secondary" data-bs-toggle="modal" data-bs-target="#ui">
+                  VER
+                </button>
+                <div class="modal" id="ui">
+                  <div class="modal-dialog modal-fullscreen-md-down">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h6>Certificado</h6>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                      </div>
+                      <div class="modal-body modal-lg">
+                        <img src="assets/certificados origamid/Flexbox.png" alt="" class="d-block w-100">
+                      </div>
+                    </div>
 
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3  cursos">
                 <span class="text-colored">Origamid</span>
                 <h5>HTML e CSS</h5>
                 <P>Para Iniciantes</P>
@@ -294,8 +377,8 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3  cursos">
 
+              <div class="col-md-3  cursos">
                 <span class="text-colored">Origamid</span>
                 <h5>UI</h5>
                 <P>User Iterface</P>
@@ -317,6 +400,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="col-md-3  cursos ">
 
                 <span class="text-colored">FIAP</span>
@@ -549,6 +633,12 @@
             <div class="card text-bg-dark d-block w-100">
               <i class="devicon-less-plain-wordmark"></i>
               <h6 class="text-center">LESS</h6>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 colunas animate from-botton1">
+            <div class="card text-bg-dark d-block w-100">
+              <i class="devicon-grunt-line"></i>
+              <h6 class="text-center">GRUNT</h6>
             </div>
           </div>
         </div>

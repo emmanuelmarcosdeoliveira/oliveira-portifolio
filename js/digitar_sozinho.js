@@ -1,6 +1,6 @@
 const digitarSozinho = document.querySelector("#texto");
 const meuTexto = "Emmanuel Marcos de Oliveira";
-const interval = 200;
+const interval = 80;
 
 function showText(digitarSozinho, meuTexto, interval) {
   const char = meuTexto.split("").reverse();

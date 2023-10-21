@@ -3,7 +3,7 @@ body {
   background-color: #1e222c;
   color: #fafafa;
   overflow-x: hidden;
-  }
+}
 
 .home-profissao {
   font-family: "Bruno Ace", cursive;
@@ -51,13 +51,14 @@ body {
   body {
     overflow-x: hidden;
   }
-  #texto {
-    text-align: center;
-  }
 }
-@media (max-width: 600px ) {
-  body, html {
+@media (max-width: 600px) {
+  body,
+  html {
     overflow-x: hidden;
     margin: 0 auto;
+  }
+  #texto {
+    text-align: center;
   }
 }

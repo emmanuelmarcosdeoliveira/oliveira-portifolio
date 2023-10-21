@@ -71,3 +71,17 @@
   font-size: 18px;
 }
 }
+
+@media (max-width: 600px) {
+  aside {
+   display: grid;
+  
+   grid-template-columns: 1fr 1fr;
+   justify-content: center;
+  }
+ aside > nav.nav-pills{
+   width:375px;
+    display: grid!important;
+   grid-template-columns: 1fr 1fr !important;
+  }
+}

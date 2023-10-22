@@ -5,7 +5,6 @@
 [Descrição](#--descrição-do-projeto-) |
 [Funcionalidades](#%EF%B8%8F-funcionalidades)|
 [Como executar esse projeto ?](#%EF%B8%8F-como-executar-esse-projeto-) |
-[Deploy](#%EF%B8%8Fdeploy) |
 [Referências](#-referências-) |
 [Autor](#-autor-) 
 </div>
@@ -43,6 +42,10 @@
 
 <div align="center">
 <h2> Video 📽️ de Demostração do Projeto</h2>
+
+
+
+https://github.com/emmanuelmarcosdeoliveira/oliveira-portifolio/assets/116108389/a8c90f6c-c933-4b9e-a8ec-f1f7fa08e4d9
 
 
 
